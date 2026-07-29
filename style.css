@@ -1562,3 +1562,27 @@ font-family:"Quicksand";
 opacity:.75;
 
 }
+
+.github-link{
+
+display:block;
+
+margin-top:22px;
+
+text-align:center;
+
+font-size:15px;
+
+color:#B79C96;
+
+text-decoration:none;
+
+transition:.25s;
+
+}
+
+.github-link:hover{
+
+color:#7A2F2F;
+
+}
