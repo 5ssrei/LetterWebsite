@@ -1546,3 +1546,19 @@ transform:scale(1.05);
 background:#5E2222;
 
 }
+
+.made-with-love{
+
+margin-top:35px;
+
+font-size:14px;
+
+color:#B8AAA6;
+
+letter-spacing:1px;
+
+font-family:"Quicksand";
+
+opacity:.75;
+
+}
