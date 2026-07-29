@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Our Story 💖</title>
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&family=Quicksand:wght@400;500;700&display=swap"
+rel="stylesheet">
+
+<link
+rel="stylesheet"
+href="style.css">
+
+</head>
+
+<body>
+
+<!-- ========================= -->
+<!-- Background -->
+<!-- ========================= -->
+
+<div id="background">
+
+<div class="gradient"></div>
+
+<div class="grid"></div>
+
+<div id="particles"></div>
+
+</div>
+
+<!-- ========================= -->
+<!-- Loading -->
+<!-- ========================= -->
+
+<section id="loading">
+
+<div class="loading-card">
+
+<h1>
+
+LOVE LETTER
+
+</h1>
+
+<div class="loading-heart">
+
+💖
+
+</div>
+
+<div class="loading-bar">
+
+<div class="loading-progress"></div>
+
+</div>
+
+<p>
+
+Loading...
+
+</p>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- Scene 1 -->
+<!-- ========================= -->
+
+<section
+id="scene1"
+class="scene hidden">
+
+<div class="love-window">
+
+<!-- Window Header -->
+
+<div class="window-header">
+
+    <div class="window-title">
+        LOVE
+    </div>
+
+    <div class="window-buttons">
+        <span class="red"></span>
+        <span class="yellow"></span>
+        <span class="green"></span>
+    </div>
+
+</div>
+
+<!-- Decoration -->
+
+<div class="window-decoration">
+
+♥ ・ ♥ ・ ♥ ・ ♥ ・ ♥
+
+</div>
+
+<!-- Window Body -->
+
+<div class="window-body">
+
+<div class="cat-frame">
+
+    <img
+        id="cat"
+        src="assets/gifs/cat.gif"
+        alt="cat"
+    />
+
+</div>
+
+<h2>
+
+Will you stay with me forever?
+
+</h2>
+
+<p
+id="dialog">
+
+🥹
+
+</p>
+
+<div class="button-group">
+
+<button
+id="yes">
+
+YES 💕
+
+</button>
+
+<button
+id="no">
+
+NO 🤍
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- Scene 2 -->
+<!-- ========================= -->
+
+<section
+id="scene2"
+class="scene hidden">
+
+<div class="success-card">
+
+<h1>
+
+YAYYYYY!! 💖
+
+</h1>
+
+<p>
+
+I knew you would choose YES.
+
+</p>
+
+<button
+id="continueBtn">
+
+Continue →
+
+</button>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- Scene 3 -->
+<!-- ========================= -->
+
+<section
+id="scene3"
+class="scene hidden">
+
+<div
+id="envelope">
+
+<div class="envelope-back"></div>
+
+<div class="letter-paper">
+
+<h2>
+
+To
+
+</h2>
+
+<h3>
+
+My Love,
+
+William Wang ❤️
+
+</h3>
+
+<p>
+
+Click to Open
+
+</p>
+
+</div>
+
+<div class="envelope-flap"></div>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- Scene 4 -->
+<!-- ========================= -->
+
+<section
+id="scene4"
+class="scene hidden">
+
+<div
+class="photo-wall">
+
+<div class="photo">
+
+<img
+src="assets/photos/01.jpeg">
+
+</div>
+
+<div class="photo">
+
+<img
+src="assets/photos/02.jpeg">
+
+</div>
+
+<div class="photo">
+
+<img
+src="assets/photos/03.jpeg">
+
+</div>
+
+<div class="photo">
+
+<img
+src="assets/photos/04.jpeg">
+
+</div>
+
+<div class="photo">
+
+<img
+src="assets/photos/05.jpeg">
+
+</div>
+
+<div class="photo">
+
+<img
+src="assets/photos/06.jpeg">
+
+</div>
+
+<div class="photo">
+
+<img
+src="assets/photos/07.jpeg">
+
+</div>
+
+<div class="photo">
+
+<img
+src="assets/photos/08.jpeg">
+
+</div>
+
+<div class="photo">
+
+<img
+src="assets/photos/09.jpeg">
+
+</div>
+
+<div class="photo">
+
+<img
+src="assets/photos/10.jpeg">
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- Scene 5 -->
+<!-- ========================= -->
+
+<section
+id="scene5"
+class="scene hidden">
+
+<div class="letter-container">
+
+<h2>
+
+Dear My Love ❤️
+
+</h2>
+
+<div id="typingText">
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- Scene 6 -->
+<!-- ========================= -->
+
+<section
+id="scene6"
+class="scene hidden">
+
+<div class="ending-card">
+
+<h1>
+
+THE END 💕
+
+</h1>
+
+<p>
+
+Thank you for choosing me.
+
+I hope every tomorrow still has us.
+
+</p>
+
+<button
+id="restartBtn">
+
+Play Again
+
+</button>
+
+</div>
+
+</section>
+
+<!-- ========================= -->
+<!-- Floating Hearts -->
+<!-- ========================= -->
+
+<div
+id="heartContainer">
+
+<div id="photoOverlay">
+
+    <img id="overlayImage">
+
+    <p id="photoCaption"></p>
+
+</div>
+
+</div>
+
+<!-- ========================= -->
+<!-- Audio -->
+<!-- ========================= -->
+
+<audio
+id="bgm"
+loop>
+
+<source
+src="assets/music/bgm.mp3"
+type="audio/mpeg">
+
+</audio>
+
+<script
+src="script.js">
+
+</script>
+
+</body>
+
+</html>
+
