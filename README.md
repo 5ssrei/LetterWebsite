@@ -1,46 +1,83 @@
-# LetterWebsite
-Serendipity  Every memory begins with one beautiful accident.
-
 # Serendipity ♡
 
-> *"Some people call it coincidence. I call it meeting you."*
-
-An interactive love letter website created for someone who means the world to me.
-
-This project is more than just HTML, CSS, and JavaScript.
-It is a collection of memories, photographs, letters, and little moments that became my favorite story.
+> *"Some people call it coincidence.  
+> I call it meeting you."*
 
 ---
 
-## ✨ Features
+## A Letter Written in Code
 
-- 💌 Interactive envelope opening animation
-- 📸 Polaroid-style photo gallery
-- 🔍 Click-to-enlarge photo viewer
-- ⌨️ Typewriter love letter effect
+This isn't just a website.
+
+It's a collection of memories,
+a handful of photographs,
+a few lines of code,
+and a letter written for someone
+who quietly became my favorite person.
+
+Every animation,
+every transition,
+every tiny interaction
+was created with one thought in mind—
+
+> **"I hope this makes you smile."**
+
+---
+
+## Features
+
+- 💌 Interactive envelope opening
+- 📸 Polaroid-style memory gallery
+- ✨ Click-to-enlarge photographs
+- ⌨️ Typewriter love letter animation
 - 🎵 Background music
 - ❤️ Animated ending scene
 
 ---
 
-## 🛠️ Built With
+## Built With
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla)
+- Vanilla JavaScript
 
 ---
 
-## 🌷 Inspiration
+## Inspiration
 
-Inspired by those beautiful interactive websites that tell a story,
-I wanted to create something that wasn't just a webpage,
-but a memory that could be revisited anytime.
+I wanted to create something that could be experienced,
+not just viewed.
+
+Instead of simply saying
+*"I love you,"*
+
+I wanted every click,
+every transition,
+and every memory
+to quietly tell the story for me.
 
 ---
 
-## ♡
+## For William
 
-For William.
+Thank you for every ordinary day
+that somehow became unforgettable.
 
-Thank you for becoming one of the most beautiful chapters of my life.
+Thank you for every smile,
+every hug,
+every little moment
+that slowly turned into my favorite memories.
+
+If one day we look back on this website years from now,
+
+I hope we won't only remember the animations
+or the code—
+
+I hope we'll remember
+how happy we were.
+
+♡
+
+With all my love,
+
+**Joanna Wu**
